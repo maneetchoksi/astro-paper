@@ -1,5 +1,5 @@
 import { SITE } from "@config";
-import { glob } from "astro/dist/content/loaders";
+import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
